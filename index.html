@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Enter Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particle canvas background -->
+  <canvas id="particles"></canvas>
+
+  <!-- ───── LOADER ───── -->
+  <div id="loader">
+    <div class="loader-ring"></div>
+    <p class="loader-text">Loading<span class="dots"></span></p>
+  </div>
+
+  <!-- ───── NAVBAR ───── -->
+  <nav id="navbar">
+    <div class="nav-logo">EYN<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Enter Your Name</h1>
+      <div class="hero-tags reveal">
+        <span>Student</span>
+        <span>Developer</span>
+        <span>Creator</span>
+      </div>
+      <p class="hero-sub reveal">Turning ideas into digital experiences.</p>
+      <a href="#about" class="btn-primary reveal">Discover More</a>
+    </div>
+    <div class="hero-avatar reveal">
+      <div class="avatar-ring">
+        <div class="avatar-inner">EYN</div>
+      </div>
+      <div class="orbit orbit-1"><div class="orb"></div></div>
+      <div class="orbit orbit-2"><div class="orb"></div></div>
+      <div class="orbit orbit-3"><div class="orb"></div></div>
+    </div>
+  </section>
+
+  <!-- ───── ABOUT ───── -->
+  <section id="about">
+    <div class="section-header reveal">
+      <h2>About <span>Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="card-icon">🎓</div>
+        <h3>Name</h3>
+        <p>Enter Your Name</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">🏫</div>
+        <h3>School</h3>
+        <p>Enter Your School of Origin</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">📚</div>
+        <h3>Class</h3>
+        <p>Enter Your Class</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-icon">🔢</div>
+        <h3>Attendance Number</h3>
+        <p>Enter Your Attendance Number</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── SKILLS ───── -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <h2>My <span>Skills</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal" data-skill="Enter Your Skills">
+        <div class="skill-icon">💻</div>
+        <h3>Enter Your Skills</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+      <div class="skill-card reveal" data-skill="Enter Your Skills">
+        <div class="skill-icon">🎨</div>
+        <h3>Enter Your Skills</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+        <span class="skill-pct">78%</span>
+      </div>
+      <div class="skill-card reveal" data-skill="Enter Your Skills">
+        <div class="skill-icon">⚙️</div>
+        <h3>Enter Your Skills</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+        <span class="skill-pct">70%</span>
+      </div>
+      <div class="skill-card reveal" data-skill="Enter Your Skills">
+        <div class="skill-icon">📱</div>
+        <h3>Enter Your Skills</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+        <span class="skill-pct">65%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── HOBBIES ───── -->
+  <section id="hobbies">
+    <div class="section-header reveal">
+      <h2>My <span>Hobbies</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="hobbies-grid">
+      <div class="hobby-card reveal">
+        <div class="hobby-icon">🎮</div>
+        <h3>Enter Your Hobby</h3>
+        <p>Brief description of your hobby goes here.</p>
+      </div>
+      <div class="hobby-card reveal">
+        <div class="hobby-icon">🎵</div>
+        <h3>Enter Your Hobby</h3>
+        <p>Brief description of your hobby goes here.</p>
+      </div>
+      <div class="hobby-card reveal">
+        <div class="hobby-icon">📷</div>
+        <h3>Enter Your Hobby</h3>
+        <p>Brief description of your hobby goes here.</p>
+      </div>
+      <div class="hobby-card reveal">
+        <div class="hobby-icon">📖</div>
+        <h3>Enter Your Hobby</h3>
+        <p>Brief description of your hobby goes here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <h2>Past <span>Projects</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-glow"></div>
+        <div class="project-num">01</div>
+        <h3>Enter Your Project Name</h3>
+        <p>A short description of what this project does and the technologies used.</p>
+        <a href="https://your-domain.com" target="_blank" class="project-link">View Project →</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-glow"></div>
+        <div class="project-num">02</div>
+        <h3>Enter Your Project Name</h3>
+        <p>A short description of what this project does and the technologies used.</p>
+        <a href="https://your-domain.com" target="_blank" class="project-link">View Project →</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-glow"></div>
+        <div class="project-num">03</div>
+        <h3>Enter Your Project Name</h3>
+        <p>A short description of what this project does and the technologies used.</p>
+        <a href="https://your-domain.com" target="_blank" class="project-link">View Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <h2>Get In <span>Touch</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-wrapper reveal">
+      <p class="contact-sub">Feel free to reach out for collaborations or just a chat!</p>
+      <a href="mailto:your@email.com" class="btn-primary">Say Hello 👋</a>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    <p>Crafted with ❤️ by <span>Enter Your Name</span> · 2025</p>
+  </footer>
+
+  <!-- Scroll-to-top button -->
+  <button id="scrollTop" title="Back to top">▲</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
